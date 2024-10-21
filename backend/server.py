@@ -1,17 +1,12 @@
-from flask import Flask, send_from_directory
-import os
+from flask import Flask, render_template
 
-app = Flask(__name__)
-
-# Define the path to the frontend directory
-FRONTEND_PATH = os.path.join(os.path.dirname(__file__), '../frontend')
+# Specify the path to your templates folder
+app = Flask(__name__, template_folder='../frontend/', static_folder='../frontend/static/')
 
 @app.route('/')
-def serve_index():
-    # Serve the index.html from the frontend directory
-    return send_from_directory(FRONTEND_PATH, 'index.html')
+def index():
+    """Render home page."""
+    return render_template('index.html')  # Render templates as usual
 
 if __name__ == '__main__':
-
-#   manā datorā default ports 5000 bija aizņemts ar citu lapu
     app.run(debug=True, port=2005)
