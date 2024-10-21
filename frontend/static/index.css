@@ -31,7 +31,7 @@ header > h1 {
 }
 
 .shadow {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 main {
@@ -44,6 +44,8 @@ main {
     border-radius: 5px;
 
     font-family: "Poppins", cursive;
+
+    margin-bottom: 25px;
 }
 
 main>h1{
@@ -58,7 +60,7 @@ main h1, main h2, main h3, main h4 {
 main>pre {
     margin-top: 10px;
     background-color: rgb(16, 16, 16);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     padding: 10px;
     border-radius: 5px;
     border: solid 1px rgb(85, 85, 85);
