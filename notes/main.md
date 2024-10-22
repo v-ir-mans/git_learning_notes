@@ -1,5 +1,5 @@
 # Ok tātad...
-
+Jauna rinda
 Sākumā vajag izveidot repo
 
 Githubā to var caur UI vai CMD
