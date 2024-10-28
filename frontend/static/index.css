@@ -38,7 +38,7 @@ header{
 }
 
 header > h1 {
-    color: #F05033;
+    color: #00ffae;
     font-family: "Rubik Dirt", system-ui;
     font-size: 45pt;
     margin-left: 15px;
@@ -78,7 +78,7 @@ main>pre {
     padding: 10px;
     border-radius: 5px;
     border: solid 1px rgb(85, 85, 85);
-    color: #F05033;
+    color: #00ffae;
     font-size: large;
     font-weight: bold;
     margin-bottom: 10px;
