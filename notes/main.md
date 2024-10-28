@@ -1,4 +1,5 @@
 # Ok tātad...
+
 Jauna rinda
 Sākumā vajag izveidot repo
 
@@ -48,8 +49,6 @@ git commit -F commit_message.txt
 
 Tas ir no faila^
 
-
-
 Tad ir
 
 ```
@@ -64,7 +63,23 @@ git push
 
 arī strādās
 
+---
 
+### Zari
+
+Izveidot zaru
+
+```
+git branch [nosaukums]
+```
+
+Pāriet uz zaru
+
+```
+git checkout [nosaukums]
+```
+
+vēl ir merge jāpamēģina
 
 ---
 
@@ -87,5 +102,3 @@ git commit --amend -m "New commit message"
 ```
 
 izmaina pēdējo commit ziņu
-
-
